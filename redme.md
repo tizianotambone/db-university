@@ -10,3 +10,6 @@ WHERE `cfu` > 10;
 
 SELECT * FROM db_university.students
 WHERE TIMESTAMPDIFF( YEAR,date_of_birth, CURDATE())>=30;
+
+SELECT * FROM db_university.courses
+WHERE period = 'I semestre' AND year = 1;
