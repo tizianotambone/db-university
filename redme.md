@@ -4,3 +4,6 @@ Dopo aver testato le vostre query con MySQL Workbench, riportatele in un file tx
 
 SELECT * FROM db_university.students
 WHERE  YEAR(`date_of_birth`) = 1990;
+
+SELECT * FROM db_university.courses
+WHERE `cfu` > 10;
