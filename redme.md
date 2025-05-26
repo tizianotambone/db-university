@@ -7,3 +7,6 @@ WHERE  YEAR(`date_of_birth`) = 1990;
 
 SELECT * FROM db_university.courses
 WHERE `cfu` > 10;
+
+SELECT * FROM db_university.students
+WHERE TIMESTAMPDIFF( YEAR,date_of_birth, CURDATE())>=30;
