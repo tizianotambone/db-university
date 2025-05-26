@@ -13,3 +13,7 @@ WHERE TIMESTAMPDIFF( YEAR,date_of_birth, CURDATE())>=30;
 
 SELECT * FROM db_university.courses
 WHERE period = 'I semestre' AND year = 1;
+
+SELECT * FROM db_university.exams
+WHERE date = '2020-06-20'
+AND hour >'14:00:00';
