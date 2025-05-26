@@ -20,3 +20,7 @@ AND hour >'14:00:00';
 
 SELECT * FROM db_university.degrees
 WHERE level = 'magistrale'
+
+SELECT DISTINCT name 
+FROM db_university.departments;
+
